@@ -1,0 +1,321 @@
+/* =========================
+   RESET
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* =========================
+   BODY
+========================= */
+
+body {
+    font-family: Arial, sans-serif;
+
+    background-color: #fff5f7;
+
+    color: #4a3030;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+header {
+    background-color: #d85c85;
+
+    color: white;
+
+    padding: 20px;
+
+    text-align: center;
+}
+
+
+header h1 {
+    margin-bottom: 15px;
+
+    font-size: 28px;
+}
+
+
+/* =========================
+   NAVBAR
+========================= */
+
+nav a {
+    color: white;
+
+    text-decoration: none;
+
+    margin: 0 15px;
+
+    font-weight: bold;
+}
+
+
+nav a:hover {
+    color: #ffe1eb;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+    height: 500px;
+
+    background-color: #ffd6e3;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    padding: 20px;
+}
+
+
+.hero h2 {
+    color: #8f3f5d;
+
+    font-size: 42px;
+
+    margin-bottom: 20px;
+}
+
+
+.hero p {
+    font-size: 18px;
+
+    margin-bottom: 30px;
+}
+
+
+/* =========================
+   BUTTON
+========================= */
+
+button {
+    background-color: #d85c85;
+
+    color: white;
+
+    border: none;
+
+    padding: 12px 25px;
+
+    border-radius: 25px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+    font-weight: bold;
+}
+
+
+button:hover {
+    background-color: #a93f65;
+}
+
+
+/* =========================
+   SECTION
+========================= */
+
+section {
+    padding: 70px 8%;
+}
+
+
+section h2 {
+    text-align: center;
+
+    color: #8f3f5d;
+
+    font-size: 32px;
+
+    margin-bottom: 40px;
+}
+
+
+/* =========================
+   PRODUK
+========================= */
+
+.produk {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 25px;
+}
+
+
+.card {
+    background-color: white;
+
+    padding: 25px;
+
+    text-align: center;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+.card:hover {
+    transform: translateY(-5px);
+
+    transition: 0.3s;
+}
+
+
+.emoji {
+    font-size: 70px;
+
+    background-color: #ffe5ed;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    margin-bottom: 20px;
+}
+
+
+.card h3 {
+    color: #8f3f5d;
+
+    margin-bottom: 10px;
+
+    font-size: 22px;
+}
+
+
+.card p {
+    margin-bottom: 15px;
+
+    line-height: 1.5;
+}
+
+
+.card strong {
+    display: block;
+
+    color: #d85c85;
+
+    font-size: 18px;
+
+    margin-bottom: 15px;
+}
+
+
+/* =========================
+   TENTANG
+========================= */
+
+.tentang {
+    background-color: #ffe9ef;
+
+    text-align: center;
+}
+
+
+.tentang p {
+    max-width: 700px;
+
+    margin: auto;
+
+    font-size: 18px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================
+   KONTAK
+========================= */
+
+.kontak {
+    background-color: white;
+
+    text-align: center;
+}
+
+
+.kontak p {
+    margin: 12px;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    background-color: #8f3f5d;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 25px;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 900px) {
+
+    .produk {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 22px;
+    }
+
+
+    nav a {
+        display: inline-block;
+
+        margin: 5px;
+
+        font-size: 14px;
+    }
+
+
+    .hero {
+        height: 450px;
+    }
+
+
+    .hero h2 {
+        font-size: 30px;
+    }
+
+
+    .produk {
+        grid-template-columns: 1fr;
+    }
+
+}

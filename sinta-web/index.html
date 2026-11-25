@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Toko Kue Sinta</title>
+
+    <!-- MEMANGGIL FILE CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🍰 Toko Kue Sinta</h1>
+
+        <nav>
+            <a href="#home">Beranda</a>
+            <a href="#produk">Produk</a>
+            <a href="#tentang">Tentang</a>
+            <a href="#kontak">Kontak</a>
+        </nav>
+    </header>
+
+
+    <section id="home" class="hero">
+
+        <div>
+            <h2>Selamat Datang di Toko Kue Sinta</h2>
+
+            <p>
+                Kue lezat dan berkualitas untuk
+                menemani hari spesial Anda.
+            </p>
+
+            <button onclick="pesan()">
+                Pesan Sekarang
+            </button>
+        </div>
+
+    </section>
+
+
+    <section id="produk">
+
+        <h2>Produk Kami</h2>
+
+        <div class="produk">
+
+            <div class="card">
+                <div class="emoji">🎂</div>
+
+                <h3>Birthday Cake</h3>
+
+                <p>Kue ulang tahun yang lembut dan lezat.</p>
+
+                <strong>Rp150.000</strong>
+
+                <button onclick="pesanProduk('Birthday Cake')">
+                    Pesan
+                </button>
+            </div>
+
+
+            <div class="card">
+                <div class="emoji">🧁</div>
+
+                <h3>Cupcake</h3>
+
+                <p>Cupcake manis dengan berbagai topping.</p>
+
+                <strong>Rp50.000</strong>
+
+                <button onclick="pesanProduk('Cupcake')">
+                    Pesan
+                </button>
+            </div>
+
+
+            <div class="card">
+                <div class="emoji">🍰</div>
+
+                <h3>Cheesecake</h3>
+
+                <p>Cheesecake creamy dengan rasa keju.</p>
+
+                <strong>Rp120.000</strong>
+
+                <button onclick="pesanProduk('Cheesecake')">
+                    Pesan
+                </button>
+            </div>
+
+
+            <div class="card">
+                <div class="emoji">🍪</div>
+
+                <h3>Cookies</h3>
+
+                <p>Cookies renyah dan cocok untuk camilan.</p>
+
+                <strong>Rp45.000</strong>
+
+                <button onclick="pesanProduk('Cookies')">
+                    Pesan
+                </button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="tentang" class="tentang">
+
+        <h2>Tentang Toko Kue Sinta</h2>
+
+        <p>
+            Toko Kue Sinta menyediakan berbagai macam
+            kue dengan bahan berkualitas dan rasa yang lezat.
+        </p>
+
+    </section>
+
+
+    <section id="kontak" class="kontak">
+
+        <h2>Kontak Kami</h2>
+
+        <p>📍 Jl. Raya Sukabumi No. 10</p>
+
+        <p>📞 0812-3456-7890</p>
+
+        <p>📧 tokokuesinta@gmail.com</p>
+
+    </section>
+
+
+    <footer>
+        <p>
+            © 2026 Toko Kue Sinta
+        </p>
+    </footer>
+
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
